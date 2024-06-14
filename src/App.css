@@ -1,0 +1,98 @@
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+ul{
+  display: flex;
+  align-items: center;
+}
+li{
+  list-style: none;
+  margin:0px 30px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.login{
+ padding: 10px 20px;
+ background-color:
+ rgba(208, 28, 40, 1);
+ border-radius: 20px;
+ border: none;
+ outline: none;
+ color: white;
+
+}
+.left_hero{
+   display: flex; 
+   flex-direction: column;
+   gap: 20px;
+}
+.buttons, .imges_logo{
+  display: flex;
+  gap: 20px;
+}
+.left_text_1{
+  font-size: 88px;
+}
+.left_hero{
+  width: 50%;
+}
+.right_hero{
+  width: 530px;
+  height: 
+  487.06px;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.buttons button{
+ padding: 10px 30px;
+ border: none;
+ outline: none;
+}
+.buttons button:first-child{
+  background-color: 
+  rgba(208, 28, 40, 1);
+  color: white;
+}
+.buttons button:last-child{
+  border: 1px solid  black;
+}
+form{
+  height: 73vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form input{
+  width: 500px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid black;
+}
+.form button{
+  padding: 10px 30px;
+  background-color: rgba(208, 28, 40, 1);
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+.about{
+  margin: 20px;
+  padding: 10px;
+  background-color: azure;
+}
+.footer{
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(208, 28, 40, 1);
+}
